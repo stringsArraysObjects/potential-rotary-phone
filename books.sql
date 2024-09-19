@@ -5,6 +5,7 @@
 -- for all books that have been loaned at least once and aren't currently
 -- on-loan (meaning that they do not have records with return_date == null).
 -- The result should be ordered by book_id in descending order.
+-- Two seperate tables books and loans.
 
 
 
